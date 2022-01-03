@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>График</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/graph.css" type="text/css">
+        <link rel="stylesheet" href="css/main.css" type="text/css">
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <link rel = "icon" href ="image/icon.png">
+        <script src = "js/jquery-3.6.0.min.js"></script>
+        <script src="js/index.js" type="text/javascript"></script>
+        
+    </head>
+
+    <body>
+        <header>
+            <div class = "content">
+                <div class = "LL">
+                    <div class = "logo">
+                        <a herf = "#"><img  src = "image/LW1.png" alt="LOGO" width="150px"></a>
+                    </div>
+                    <div class = "Nav">
+                    <ul>
+                        <li><a href="index.html">Статья</a></li>
+                        <li><a href="graphics.html">Графики</a></li>
+                        <li><a href="bookmark.html">Заметки</a></li>
+                        <li><a href="questionnaire.html">Анкета</a></li>
+                    </ul>
+                    </div>
+                    <button class = "_Nav">
+                        <hr>
+                        <hr>
+                        <hr>
+                    </button>
+                </div>
+                <div class = "__Nav">
+                        <ul>
+                            <li><a href="index.html">Статья</a></li>
+                            <li><a href="graphics.html">Графики</a></li>
+                            <li><a href="bookmark.html">Заметки</a></li>
+                            <li><a href="questionnaire.html">Анкета</a></li>
+                        </ul>
+                    </div>
+            </div>
+        </header>
+    <div class = "background"> 
+        <section>
+            <div class = "graph">
+                <h1 align = "center">График</h1>
+                <div class="chart-container">
+                    <canvas id="myChart"></canvas>
+                </div>
+            </div>
+        </section>
+        
+        <section>
+            <div class = "ColorLineGraph">
+                <h1>Цвет графика</h1>
+                <div class = "CB">
+                    <select id = "color" style="width: 100%">
+                        <option id = "gray" value="gray">Серый</option>
+                        <option id = "red" value="red">Красный</option>
+                        <option id = "green" value="green">Зеленый</option>
+                        <option id = "blue" value="blue">Синий</option>
+                        <option id = "yellow" value="yellow">Желтый</option>
+                    </select>
+                    <button class = "btn" style="width: 100%">Поменять цвет</button>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class = "table">
+                <h1>Таблица</h1>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Место в рейтинге</th>
+                            <th>Языки программирования</th>
+                            <th>Баллы</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>1</td><td>Python</td><td>100</td></tr>
+                        <tr><td>2</td><td>Java</td><td>95.4</td></tr>
+                        <tr><td>3</td><td>C</td><td>94.7</td></tr>
+                        <tr><td>4</td><td>C++</td><td>92.4</td></tr>
+                        <tr><td>5</td><td>JavaScript</td><td>88.1</td></tr>
+                        <tr><td>6</td><td>C#</td><td>82.4</td></tr>
+                        <tr><td>7</td><td>R</td><td>81.7</td></tr>
+                        <tr><td>8</td><td>Go</td><td>77.7</td></tr>
+                        <tr><td>9</td><td>Swift</td><td>70.4</td></tr>
+                        <tr><td>10</td><td>PHP</td><td>68</td></tr>
+                        <tr><td>11</td><td>Dart</td><td>67.7</td></tr>
+                        <tr><td>12</td><td>Ruby</td><td>63.6</td></tr>
+                        <tr><td>13</td><td>Rust</td><td>63.1</td></tr>
+                        <tr><td>14</td><td>Kotlin</td><td>58.5</td></tr>
+                        <tr><td>15</td><td>Scala</td><td>55.4</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        <br>
+        <br>
+    </div>   
+    </body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.5.1/chart.js"></script>
+    <script src = "js/graph.js"></script>
+</html>
