@@ -26,10 +26,10 @@
                         <a href="../index.html" class="header__link">Статья</a>
                     </li>
                     <li class="header__item">
-                        <a href="../statistics.html" class="header__link">Статистика</a>
+                        <a href="../graphics.html" class="header__link">Статистика</a>
                     </li>
                     <li class="header__item">
-                        <a href="../notes.html" class="header__link">Заметки</a>
+                        <a href="../bookmark.html" class="header__link">Заметки</a>
                     </li>
                     <li class="header__item">
                         <a href="#" class="header__link">Анкета</a>
