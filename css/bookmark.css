@@ -1,0 +1,50 @@
+.tasks__list
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 200px);
+    grid-auto-rows: 300px;
+    padding: 60px;
+    grid-gap: 50px;
+}
+
+ h1
+{
+    margin: 0;
+    font-weight: 700;
+    border-bottom: 2px dotted black;
+}
+
+.tasks__item
+{
+    list-style: none;
+    padding: 5px;
+    position: relative;
+    box-shadow: 3px 0px 5px rgba(0, 0, 0, 1);
+    border-radius: 20px;
+}
+
+.color0, .color5, .color10
+{
+    border:2px dashed rgba(200,0,0,1);
+    background-color: rgba(255,0,0,0.5);
+}
+.color1, .color6, .color11
+{
+    border:2px dashed rgba(0,200,0,1);
+    background-color: rgba(0,255,0,0.5);
+}
+.color2, .color7, .color12
+{
+    border:2px dashed rgba(0,0,200,1);
+    background-color: rgba(0,0,255,0.5);
+}
+.color3, .color8, .color13
+{
+    border:2px dashed rgba(200,200,0,1);
+    background-color: rgba(255,255,0,0.5);
+}
+.color4, .color9, .color14
+{
+    border:2px dashed rgba(200,0,200,1);
+    background-color: rgba(255,0,255,0.5);
+}

@@ -1,0 +1,308 @@
+body, html
+{
+    margin: 0;
+    padding: 0;
+}
+
+._img
+{
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+._img::before
+{
+    content:'';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+    background-color: rgba(0, 0, 0, 0.35);
+}
+
+.container
+{
+    margin: 0px 10%;
+    padding: 0px 16.2%;
+    text-align: justify;
+}
+
+/*___________________________________________________________*/
+
+header .content
+{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    z-index: 3;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0,0.3);
+}
+
+.logo
+{
+    display:block;
+    position: static;
+    justify-content: center;
+    padding: 5px 0px;
+    z-index: 3;
+    margin: 0;
+}
+
+header .Nav ul
+{
+    list-style-type: none;
+}
+
+header .Nav a
+{
+    font-size: 20px;
+    text-decoration: none;
+    color:black;
+    display: block;
+    transition: color .4s ease;
+}
+
+header .Nav a:hover
+{
+    color:#4a8ade;
+}
+ 
+header .Nav li
+{
+    display: inline-block;
+    padding: 0px 100px 0px 0px;
+}
+
+/*___________________________________________________________*/
+
+section .content
+{
+    display: block;
+    padding: 100px 0px 200px 0px;
+    color: white;
+    z-index: 2;
+    position: relative;
+}
+
+section .content h1
+{
+    font-size: 54px;
+    display: block;
+    text-align: center;
+    color: white;
+}
+
+section .column
+{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 100px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
+    padding: 30px 50px;
+    margin: 0px 0px 100px 0px;
+    border-radius: 2rem;   
+}
+
+img
+{
+    border-radius: 1rem;
+}
+
+section .inner
+{
+    background-size:cover;
+    background-position:bottom;
+    background-repeat:no-repeat;
+    background-image: url(https://million-wallpapers.ru/wallpapers/3/59/530240169779988/sinie-puzyrki.jpg);
+    box-shadow:0 5px 10px rgba(0,0,0,0.5);
+    border-radius: 2rem;
+}
+
+section .inner a
+{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+section .inner a:hover
+{
+     color: rgb(128, 128, 128);
+}
+
+section .inner ol
+{
+    font-size: 115%;
+    padding: 5px 40px;
+    text-align: justify;
+}
+
+section .__inner
+{
+    column-count: 3;
+}
+
+section p
+{
+    font-size: 26PX;
+}
+
+section ._D p
+{
+    font-size: 20px;
+}
+
+section ._D h1
+{
+    font-size: 40px;
+}
+
+section ._D img
+{
+    width: 100%;
+}
+
+section .column p
+{
+    text-align:left;
+    font-size: 20px;
+}
+
+section .column img
+{
+    width: 100%;
+}
+
+section h1
+{
+    font-size: 40px;
+}
+
+#main
+{
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.8);
+}
+
+#main::before
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.innera
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.img-wrapper {
+    position: relative;
+    width: 100%;
+    border:none;
+    transition: border 0.3s ease;
+    padding: 0;
+}
+
+.img-wrapper:hover {
+    border: 3px solid rgb(15, 239, 255);
+}
+
+
+.img-wrapper::after {    
+    content: attr(title);
+    font-weight: bolder;
+    color: rgba(248, 249, 250, 1) !important;
+    text-shadow: #212529 .1rem .1rem .2rem;
+    font-size: calc(1rem + .3vw);
+    position: absolute;
+    bottom: .5rem;
+    left: 20px;
+    width: 100%;
+    text-align: left;
+}
+
+.modal-body img
+{
+    cursor: pointer;
+    width: 100%;
+}
+
+button
+{
+    border-radius: 20px;
+}
+
+button:hover
+{
+    background-color: rgb(201, 201, 201);
+    color:blue;
+}
+
+._Nav
+{
+    transition: all 0.5s ease;
+    display: none;
+    border-radius: 5px;
+    box-shadow: 1px 0px 2px rgba(74,138,222,0.5);
+    background-color: #5d9def;
+}
+
+._Nav:hover
+{
+    background-color: rgba(0, 0, 255,0.8);
+}
+._Nav hr
+{
+    border-radius: 5rem;
+    width: 20px;
+    margin: 5px 5px;
+    border-color: #4a8ade;
+}
+.__Nav
+{
+    display: none;
+}
+
+.LL
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    box-shadow: 0 2px 5px rgba(128,128,128,0.5);
+}
+
+.__Nav ul
+{
+    padding-left: 20px;
+}
+
+.__Nav li
+{
+    list-style-type: none;
+    font-size: 20px;
+}
+
+.__Nav li a
+{
+    color: black;
+    transition: color .4s ease;
+    text-decoration: none;
+}
+
+.__Nav li a:hover
+{
+    color: #4a8ade;
+}

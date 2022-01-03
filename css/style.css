@@ -1,1 +1,352 @@
+@media (min-height: 1800px){
+    html, body
+    {
+        height: 100%;
+    }
+    #main
+    {
+        height: 100%;
+    }
+}
+
+
+@media (max-width: 1250px)
+{
+    section .__inner
+    {
+        column-count: 2;
+    }
+    
+    section .column
+    {
+        grid-template-columns: 1fr;  
+    }
+    
+    section .content
+    {
+        padding: 100px 0px 200px 0px;
+    }
+    section .content h1
+    {
+        font-size: 40px;
+    }
+    section p
+    {
+        font-size: 20PX;
+    }
+    section h1
+    {
+        font-size: 30px;
+    }
+    section ._D h1
+    {
+        font-size: 30px;
+    }
+    .container
+    {
+        padding: 0px 13%;
+    }
+}
+
+@media (max-width: 920px)
+{
+    .LL
+    {
+
+        align-items: center;
+    }
+    ._Nav
+    {
+        display: block;
+    }
+    .Nav
+    {
+        display: none;
+    }
+    .container
+    {
+        padding: 0px 10%;
+    }
+    section .content h1
+    {
+        font-size: 30px;
+    }
+    section p
+    {
+        font-size: 20PX;
+    }
+    section h1
+    {
+        font-size: 25px;
+    }
+    section ._D h1
+    {
+        font-size: 25px;
+    }
+
+    .user
+    {
+        margin-top: 2%;
+        margin-left: 5%;
+    }
+}
+
+@media (max-width: 750px)
+{
+    .chart-container, .CB
+    {
+        width: 500px;
+    }
+    .container
+    {
+        padding: 0px 50px;
+    }
+    section .column p
+    {
+        font-size: 18px;
+    }
+    section ._D p
+    {
+        font-size: 18px;
+    }
+    section .column
+    {
+        grid-template-columns: 1fr; 
+        padding: 30px 50px;
+    }
+
+    .allelem
+    {
+        grid-template-columns: repeat(1, 280px);
+    }
+
+    div textarea
+    {
+        width: 100%;
+        height: 110px;
+        resize: none;
+    }
+
+    .allelem .btn
+{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+    .allelem > div:nth-child(1)
+    {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .allelem > div:nth-child(2)
+    {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 3;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .allelem > div:nth-child(3)
+    {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 3;
+        grid-row-end: 4;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .allelem > div:nth-child(4)
+    {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 4;
+        grid-row-end: 5;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .allelem > div:nth-child(5)
+    {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 5;
+        grid-row-end: 6;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .allelem > div:nth-child(6)
+    {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 6;
+        grid-row-end: 7;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .allelem > div:nth-child(7)
+    {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 7;
+        grid-row-end: 8;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .allelem > div:nth-child(8)
+    {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 8;
+        grid-row-end: 9;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .allelem > div:nth-child(9)
+    {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 9;
+        grid-row-end: 10;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .allelem > div:nth-child(10)
+    {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 10;
+        grid-row-end: 11;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .allelem > div:nth-child(11)
+    {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 11;
+        grid-row-end: 12;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .allelem > div:nth-child(12)
+    {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 12;
+        grid-row-end: 13;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .allelem > div:nth-child(13)
+    {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 13;
+        grid-row-end: 14;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .allelem > div:nth-child(14)
+    {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 14;
+        grid-row-end: 15;
+    }
+
+    .allelem > div:nth-child(15)
+    {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 15;
+        grid-row-end: 16;
+
+        display: flex;
+        justify-content: flex-start;
+    }
+}
+
+@media (max-width: 640px)
+{
+    .chart-container, .CB
+    {
+        width: 400px;
+    }
+    .container
+    {
+        padding: 0px 0px;
+    }
+    section .content h1
+    {
+        font-size: 25px;
+    }
+    section p
+    {
+        font-size: 15px;
+    }
+    section h1
+    {
+        font-size: 20px;
+    }
+    section ._D h1
+    {
+        font-size: 20px;
+    }
+    section .inner ol
+    {
+        font-size: 14px;
+    }
+    section .column p
+    {
+        font-size: 15px;
+    }
+    section ._D p
+    {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 430px)
+{
+    .chart-container, .CB
+    {
+        width: 300px;
+    }
+    .container
+    {
+        padding: 0px 0px;
+        margin: auto 5px;
+    }
+}
 

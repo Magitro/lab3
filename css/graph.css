@@ -1,0 +1,96 @@
+.graph
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.background
+{
+    background-image: url(https://catherineasquithgallery.com/uploads/posts/2021-02/1613673260_8-p-fon-dlya-prezentatsii-urok-matematiki-8.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+}
+
+.chart-container
+{
+    background-color: rgba(255,255,255,1);
+    position: relative;
+    top: 10px;
+    width: 50%;
+    box-shadow: 0 2px 5px rgba(128,128,128,0.5);
+    border-radius: 10px;
+}
+
+.table
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1
+{
+    padding: 0;
+    margin: 40px 0 0;
+}
+
+thead, tbody,table, th, td 
+{
+    border: 1px solid grey;
+    font-size: 20px;
+}
+
+ td:hover
+{
+    background-color: rgba(0, 0, 255, 0.2);
+}
+
+table
+{
+    background-color: rgba(255,255,255,1);
+    position: relative;
+    align-items: center;
+}
+
+th, td
+{  
+    padding: 5px;
+}
+
+.ColorLineGraph
+{
+    column-count: 2;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.CB
+{
+    width: 50%;
+}
+
+.CB select
+{
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.CB button
+{
+    color: white;
+    background-color:rgba(0,0,200,0.8);
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.CB button:hover
+{
+    color: white;
+    background-color:rgb(0,0,255);
+}
+
